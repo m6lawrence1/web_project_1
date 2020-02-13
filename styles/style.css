@@ -287,41 +287,33 @@
 .logo_place_footer{
     width: 183px;
     height: 35px;
-    background-image: url(../images/logo_white.png);
-    display: flex;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;   
+    background-image: url('../images/logo_white.png');
 }
 
-.footer__column_content_copyright{
+.column__content-copyright{
     display: flex;
     position: relative;
     flex-basis: 711px;
     color:#504e50;
 }
 
-.footer__column_content_info{
-/*    display: flex;*/
-/*    flex: wrap;*/  
+.column__content-info{
+    display: flex;
+    flex-direction: column;
 }
 
-.footer__column-heading{
+.column-heading{
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 45px;
     font-size: 18px;
     font-weight: bold;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
 }
 
-.footer__column-links{
-    display: flex;
-    flex-direction: column;
+.column-links{
     line-height: 30px;
     font-size: 18px;
+    margin-top: 0px;
     margin-bottom: 16px;
     list-style-type: none;
     padding:0px;
@@ -341,12 +333,12 @@
 }
 
 
-.footer__column_content_social{
+.column__content-social{
     display: flex;
     flex-direction: column;
 }
 
-.footer__column-social-icon{
+.column-social-icon{
     display: flex;
     flex-direction: column;
     line-height: 30px;
