@@ -70,7 +70,7 @@
     top:64px;
 }
 
-.link{
+.header__link{
     text-decoration: none;
     color: #2f80ed;
 }
@@ -111,6 +111,7 @@
     font-size: 18px;
     color:#2f80ed;
     margin: 0;
+    font-weight: normal;
 }
 
 .two-columns__main-text{
@@ -132,7 +133,7 @@
     
 }
 
-.two-columns__space-accent{
+.two-columns__span-accent{
     font-weight: bold;
 }
 
@@ -163,6 +164,7 @@
     font-size: 24px;
     margin: auto;
     text-align: center;
+    font-weight: normal;
 }
 
 .table{
@@ -227,6 +229,8 @@
     position: absolute;
     top:50%;
     right:48px;
+    text-decoration: none;
+    color:#000;
 }
 /*end of Feyman section*/
 
@@ -250,10 +254,17 @@
 /* including elements with key-value modifiers */
 .table__cell_theme_dark {
     width: 200px;
-    color: white;
     margin-right: 0;
     margin-top: 80px;
     z-index: 2; 
+}
+
+.table__heading_theme_dark{
+    color: #fff;
+}
+
+.table__text_theme_dark{
+    color: #fff;
 }
 
 .kaufman__triangle{
@@ -270,7 +281,7 @@
 
 /*Footer section*/
 .footer{
-    padding:60px auto 40px;
+    padding:60px 0px 40px;
     min-height: 350px;
     background-color: #1F1F1F ;
     color:#fff;
@@ -290,19 +301,19 @@
     background-image: url('../images/logo_white.png');
 }
 
-.column__content-copyright{
+.footer__column_content_copyright{
     display: flex;
     position: relative;
     flex-basis: 711px;
     color:#504e50;
 }
 
-.column__content-info{
+.footer__column_content_info{
     display: flex;
     flex-direction: column;
 }
 
-.column-heading{
+.footer__column-heading{
     margin-top: 0;
     margin-bottom: 20px;
     line-height: 45px;
@@ -310,18 +321,14 @@
     font-weight: bold;
 }
 
-.column-links{
+.footer__column-links{
     line-height: 30px;
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: 16px;
     list-style-type: none;
     padding:0px;
-}
-
-
-.link_theme_dark{
-    color:#504e50;
+    text-decoration: none;
 }
 
 .footer__author{
@@ -333,22 +340,28 @@
 }
 
 
-.column__content-social{
+.footer__column_content_social{
     display: flex;
     flex-direction: column;
 }
 
-.column-social-icon{
+.footer__social-icon{
     display: flex;
     flex-direction: column;
     line-height: 30px;
     font-size: 18px;
-    color:#504e50;
-    
 }
 
-.image__social-icon{
+.link{
+    color:#504e50;
+    text-decoration: none;
+}
+
+
+.social-icon{
     height: 16px;
     width: 16px;
     margin-right:10px;
+    text-decoration: none;
+    color:#504e50;
 }
