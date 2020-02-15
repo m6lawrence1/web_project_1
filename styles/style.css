@@ -97,7 +97,7 @@
 /*Description section*/
 .description{
     margin: auto;
-    padding: 100px 0px 100px;
+    padding: 100px 0 100px;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -221,6 +221,7 @@
     font-size: 36px;
     text-align: center;
     margin:70px auto 0;
+    font-weight: normal;
 }
 
 .feynman__link{
@@ -237,7 +238,7 @@
 
 /*Kaufman section*/
 .kaufman{
-    padding: 90px 0px;
+    padding: 90px 0;
     margin: auto;
     background-color: #1F1F1F ;
     position: relative;
@@ -279,31 +280,26 @@
 /*end of Kaufman section*/
 
 
+
 /*Footer section*/
 .footer{
-    padding:60px 0px 40px;
+    padding:60px 5% 40px;
     min-height: 350px;
     background-color: #1F1F1F ;
     color:#fff;
-    display: flex;
+/*    PDF page 18 shows 90% width on the footer content. Which is misleading because we can't have a width on the footer__column class. What is really needed in order for the footer content to be 90% width is to ad a 5% padding on the left and right of the footer unless we created another modifier such as footer__column_width_small. Since the pdf did not state anything about adding a modifier like that I made the padding 5% for right and left here. */
 }
 
 .footer__column{
-    width: 90%;
     display: flex;
     justify-content: space-between;
     margin:60px auto;
 }
 
-.logo_place_footer{
-    width: 183px;
-    height: 35px;
-    background-image: url('../images/logo_white.png');
-}
-
 .footer__column_content_copyright{
     display: flex;
     position: relative;
+    margin:0;
     flex-basis: 711px;
     color:#504e50;
 }
@@ -311,6 +307,14 @@
 .footer__column_content_info{
     display: flex;
     flex-direction: column;
+    margin:0;
+}
+
+.footer__column_content_social{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    margin:0;
 }
 
 .footer__column-heading{
@@ -327,8 +331,29 @@
     margin-top: 0px;
     margin-bottom: 16px;
     list-style-type: none;
-    padding:0px;
+    padding:0;
     text-decoration: none;
+}
+
+.footer__social-icon{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.social-icon{
+    height: 16px;
+    width: 16px;
+    margin-right:10px;
+    text-decoration: none;
+    color:#504e50;
+}
+
+.logo_place_footer{
+    width: 183px;
+    height: 35px;
+    background-image: url('../images/logo_white.png');
 }
 
 .footer__author{
@@ -339,29 +364,7 @@
     margin: 18px auto;  
 }
 
-
-.footer__column_content_social{
-    display: flex;
-    flex-direction: column;
-}
-
-.footer__social-icon{
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-    font-size: 18px;
-}
-
 .link{
     color:#504e50;
     text-decoration: none;
-}
-
-
-.social-icon{
-    height: 16px;
-    width: 16px;
-    margin-right:10px;
-    text-decoration: none;
-    color:#504e50;
 }
