@@ -336,13 +336,6 @@
 }
 
 .footer__social-icon{
-    display: flex;
-    flex-direction: column;
-    line-height: 30px;
-    font-size: 18px;
-}
-
-.social-icon{
     height: 16px;
     width: 16px;
     margin-right:10px;
