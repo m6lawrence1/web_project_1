@@ -283,23 +283,29 @@
 
 /*Footer section*/
 .footer{
-    padding:60px 5% 40px;
+    padding:60px 0 40px;
     min-height: 350px;
     background-color: #1F1F1F ;
     color:#fff;
-/*    PDF page 18 shows 90% width on the footer content. Which is misleading because we can't have a width on the footer__column class. What is really needed in order for the footer content to be 90% width is to ad a 5% padding on the left and right of the footer unless we created another modifier such as footer__column_width_small. Since the pdf did not state anything about adding a modifier like that I made the padding 5% for right and left here. */
 }
 
 .footer__columns{
     display: flex;
     justify-content: space-between;
     margin:60px auto;
+    width:90%;
+    /*    PDF page 18 shows 90% width on the footer content. Thought footer__columns was the same class to be applied to copyright,info, and social divs but it is actually different class so was able to apply 90% width here instead of adding 5% padding to right and left of the footer class. This was a little tricky reading the instructions for the footer section having the block elements footer__columns and footer__column and the feedback received I kept going back and forth not knowing what part was wrong and partly because of css issues. Had I known that footer_columns was a different class than what was to be on the copyright, info, and social divs it would have saved me a couple submissions. */
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    margin:0;
 }
 
 .footer__column_content_copyright{
     display: flex;
     position: relative;
-    margin:0;
     flex-basis: 711px;
     color:#504e50;
 }
