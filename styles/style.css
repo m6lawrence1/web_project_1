@@ -294,7 +294,7 @@
 /*    PDF page 18 shows 90% width on the footer content. Which is misleading because we can't have a width on the footer__column class. What is really needed in order for the footer content to be 90% width is to ad a 5% padding on the left and right of the footer unless we created another modifier such as footer__column_width_small. Since the pdf did not state anything about adding a modifier like that I made the padding 5% for right and left here. */
 }
 
-.footer__column{
+.footer__columns{
     display: flex;
     justify-content: space-between;
     margin:60px auto;
