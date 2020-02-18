@@ -17,7 +17,6 @@
     max-height: 756px;
     /*these parameters were given in starter kit. I did not change the css that was given here, I only added the display, position, and background-color. Page 3 of the sprint pdf instructions states header block to have min-height of 600px and max height of 756px. I tried removing height 100vh but didn't look correct and that was what was originally there on the template when downloaded. 
     */
-    
     display: flex;
     position: relative;
     background-color:  #f2f2f2;
@@ -191,8 +190,6 @@
 .table__text{
     margin-top: 20px;
 }
-
-
 /*end of Digits section*/
 
 
@@ -284,7 +281,6 @@
 /*end of Kaufman section*/
 
 
-
 /*Footer section*/
 .footer{
     padding:60px 5% 40px;
@@ -365,3 +361,5 @@
     color:#504e50;
     text-decoration: none;
 }
+
+/*end of Footer section*/
