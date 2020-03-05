@@ -1,0 +1,7 @@
+.footer__columns{
+    display: flex;
+    justify-content: space-between;
+    margin:60px auto;
+    width:90%;
+    /*    PDF page 18 shows 90% width on the footer content. Thought footer__columns was the same class to be applied to copyright,info, and social divs but it is actually different class so was able to apply 90% width here instead of adding 5% padding to right and left of the footer class. This was a little tricky reading the instructions for the footer section having the block elements footer__columns and footer__column and the feedback received I kept going back and forth not knowing what part was wrong and partly because of css issues. Had I known that footer_columns was a different class than what was to be on the copyright, info, and social divs it would have saved me a couple submissions. */
+}

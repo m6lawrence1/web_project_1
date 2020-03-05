@@ -1,0 +1,11 @@
+.kaufman__triangle{
+  width: 992px; /* changed because from 877px to 992px to make it so the triangle was not cut off when rotation. 877px does not show the full triangle, not necessary to make the image smaller since we have overflow hidden set*/
+  height: 992px; /* changed because from 877px to 992px to make it so the triangle was not cut off when rotation. 877px does not show the full triangle, not necessary to make the image smaller since we have overflow hidden set*/
+  position: absolute;
+  background-image: url('../../../images/triangle.svg');
+  top:0;
+  right:-210px;
+  z-index: -2;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+}

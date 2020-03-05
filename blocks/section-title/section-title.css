@@ -1,0 +1,11 @@
+@import url(./_theme/section-title_theme_dark.css);
+
+.section-title{
+    width: 60%;
+    margin:0 auto 20px;
+    text-align: center;
+    font-size: 60px;
+    line-height: 69px; /*sprint 1 brief page 10 states for the line height to be 69px, but sprint 2 brief page 6 states its should now be 1.15, leaving it as 69px since it is the same as saying 1.15 */
+    z-index: 3;
+}
+

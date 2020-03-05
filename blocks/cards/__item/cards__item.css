@@ -1,0 +1,12 @@
+.cards__item{
+  list-style-type:none;
+  padding: 60px 0 0 0;
+  width: 240px; 
+/*    not sure based on the brief on page 5 how we are to make the cards wrap. Are we supposed to be using flex here? If so we need a width on the cards__item element in order for it to wrap. This is why I added a width here. Width for this block is missing on the brief page 5*/
+    
+}
+
+.cards__item:first-of-type, .cards__item:nth-of-type(2n){
+  margin-right: 100px;
+}
+/*Not sure how to accommadate the 100px width pictured in the brief on page 5, if we are supposed to use flex for this element then we usually are using justify-content. This is the only way I could think of to get it to display as pictured in the brief, but I know this solution would not work for when we want it to make the layout responsive :(  */

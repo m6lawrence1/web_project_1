@@ -1,0 +1,14 @@
+
+.header__main-illustration{
+    width:765px;
+    height:608px;
+    background-image: url(../../../images/on_the_edge.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    
+}
