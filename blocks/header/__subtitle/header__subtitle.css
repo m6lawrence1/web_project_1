@@ -7,6 +7,8 @@
     left: 64px;
     line-height: 25px;
     font-size: 18px;
+    margin:0;
     z-index: 2
-    
 }
+
+/*changed to p tag so had to add margin 0*/

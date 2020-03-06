@@ -8,5 +8,8 @@
     width: 920px;
     margin: auto;
     flex-flow: row wrap;
+    padding-left: 0;
     
 }
+
+/*Added padding-left 0. Not sure by comment "For ul tag it's better to set  default padding-left to 0" if that means I should add this here, or add to normalize.css, or if I should add another block of ul in the BEM structure with ul.css file. Just let me know if I need to move this somewhere else thanks.*/

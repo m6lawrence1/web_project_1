@@ -12,5 +12,7 @@
     justify-content: space-between;
     margin:auto;
     flex-flow: row wrap;
+    padding-left: 0;
+    list-style-type:none;
     z-index: 2;
 }

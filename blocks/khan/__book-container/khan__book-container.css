@@ -1,4 +1,11 @@
 .khan__book-container{
     display: flex;
     padding-top: 68px;
+    align-items: start;
+    height: 620px;
+    overflow: hidden;
 }
+
+/*align-items: start - added to prevent stretching of the link in this container, thank you.
+Added height to container, thought in the brief the height was only referring to the image where it said 620x608px.
+*/

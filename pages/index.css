@@ -1,7 +1,6 @@
 @import url('../vendor/normalize.css');
-@import url('../page/page.css');
+@import url('../blocks/page/page.css');
 @import url('../blocks/link/link.css');
-@import url('../blocks/content/content.css');
 @import url('../blocks/description/description.css');
 @import url('../blocks/digits/digits.css');
 @import url('../blocks/feyman/feyman.css');
@@ -20,3 +19,5 @@
 @import url('../blocks/khan/khan.css');
 @import url('../blocks/resources/resources.css');
 @import url('../blocks/rotation/rotation.css');
+
+/*removed content/content.css file since we had no styling for it*/

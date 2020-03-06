@@ -1,8 +1,12 @@
 .khan__book-pic{
-  width:608px;
-  height: 620px;
+  width:620px;
   padding-right: 20px;
-  object-fit: cover;
-  object-position: top;
+  
 /*I don't think we went over object-fit or object-position in the lessons*/
 }
+
+/*
+Fixed height and width. Swithched padding to margin - note to self, margins should be used between elements. Paddings are inside element. Thanks!
+
+Added overflow hidden and height to khan__book-container instead of using object-fit and object-postion just to stick to what we have learned so far. 
+*/
