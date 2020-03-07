@@ -12,4 +12,8 @@
     
 }
 
-/*Added padding-left 0. Not sure by comment "For ul tag it's better to set  default padding-left to 0" if that means I should add this here, or add to normalize.css, or if I should add another block of ul in the BEM structure with ul.css file. Just let me know if I need to move this somewhere else thanks.*/
+/*Added padding-left 0. Not sure by comment "For ul tag it's better to set  default padding-left to 0" if that means I should add this here, or add to normalize.css, or if I should add another block of ul in the BEM structure with ul.css file. Just let me know if I need to move this somewhere else thanks.
+
+Note: It's good practice to set it to 0 or redefine it locally for every list on the page. It shouldn't be inside normalize because normalize is used for nomalizing styles, not for reseting it
+Also, we do this for ul,ol, p, h1-h6, body, html
+*/
